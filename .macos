@@ -1,0 +1,46 @@
+#!/usr/bin/env zsh
+
+# Install Homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
+# git config --global url."git@github.com:".insteadOf "https://github.com/"
+
+# Show dotfiles by default 
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+defaults write com.apple.finder PathBarRootAtHome -bool true
+
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+defaults write NewWindowTargetPath -string "file:///Users/issenn/"
+
+killall Finder
+
+# Initial keep file
+stow -D .keep && stow .keep
+
+
+
+# Install Iterm2 {{{1
+
+stow -D iterm2-config && stow iterm2-config
+
+defaults write com.googlecode.iterm2 PrefsCustomFolder -string "~/.config/iterm2/Preferences"
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile -bool true
+defaults write com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile_selection -int 1
+defaults write com.googlecode.iterm2 SUEnableAutomaticChecks -bool false
+defaults write com.googlecode.iterm2 SUSendProfileInfo -bool false
+defaults write com.googlecode.iterm2 NoSyncDynamicProfileChangeWillBeLost_SilenceUntil -float 31536000000000
+defaults write com.googlecode.iterm2 NoSyncDynamicProfileChangeWillBeLost_selection -int 0
+
+# defaults read com.googlecode.iterm2 PrefsCustomFolder
+# defaults read com.googlecode.iterm2 LoadPrefsFromCustomFolder
+# defaults read com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile
+# defaults read com.googlecode.iterm2 NoSyncNeverRemindPrefsChangesLostForFile_selection
+# defaults read com.googlecode.iterm2 SUEnableAutomaticChecks
+# defaults read com.googlecode.iterm2 SUSendProfileInfo
+# defaults read com.googlecode.iterm2 NoSyncDynamicProfileChangeWillBeLost_SilenceUntil
+# defaults read com.googlecode.iterm2 NoSyncDynamicProfileChangeWillBeLost_selection
+
+# }}}1

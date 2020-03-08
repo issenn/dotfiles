@@ -1,0 +1,22 @@
+txn:
+  type: interval
+  before: 
+  after: {"start":"20200318T192121Z","tags":["hack","linux"]}
+txn:
+  type: interval
+  before: {"start":"20200318T192121Z","tags":["hack","linux"]}
+  after: 
+  type: interval
+  before: 
+  after: {"start":"20200318T192121Z","end":"20200318T192153Z","tags":["hack","linux"]}
+txn:
+  type: interval
+  before: 
+  after: {"start":"20200318T192421Z","tags":["hack","linux"]}
+txn:
+  type: interval
+  before: {"start":"20200318T192421Z","tags":["hack","linux"]}
+  after: 
+  type: interval
+  before: 
+  after: {"start":"20200318T192421Z","end":"20200318T192445Z","tags":["hack","linux"]}

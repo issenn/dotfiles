@@ -1,3 +1,12 @@
 [submodule "zsh-config"]
 	path = zsh-config
 	url = git@github.com:issenn/zsh-config.git
+[submodule "tmux-config"]
+	path = tmux-config
+	url = git@github.com:issenn/tmux-config.git
+[submodule "iterm2-config"]
+	path = iterm2-config
+	url = git@github.com:issenn/iterm2-config.git
+[submodule "vscode-config"]
+	path = vscode-config
+	url = git@github.com:issenn/vscode-config.git
