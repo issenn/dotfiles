@@ -14,15 +14,36 @@ tap "issenn/kong"
 tap "homebrew-ffmpeg/ffmpeg"
 
 # Binaries
-brew "curl"
+brew "pkg-config" # https://github.com/driesvints/dotfiles/issues/20
+brew "brotli"
+brew "c-ares"
+brew "libidn"
+brew "libmetalink"
+brew "openssl@1.1"
+brew "libssh2"
+brew "jansson"
+brew "jemalloc"
+brew "libev"
+brew "libevent"
+brew "nghttp2"
+brew "openldap"
+brew "rtmpdump"
+brew "curl", link: false
+brew "curl-openssl", link: false
+brew "gettext"
+brew "pcre2"
 brew "git"
+brew "ncurses"
+brew "pcre"
 brew "zsh"
-brew "coreutils"
+brew "coreutils" # Those that come with macOS are outdated
 brew "grep"
 brew "make"
 brew "cmake"
 brew "gcc"
 brew "gawk"
+brew "gnu-sed"
+brew "tree" # List directories in a tree structure
 
 brew "neofetch"
 brew "screenfetch"
@@ -32,6 +53,7 @@ brew "pinentry-mac"
 # brew "gpg"
 brew "gnupg"
 brew "stow"
+brew "lua"
 brew "tmux"
 brew "reattach-to-user-namespace"
 # brew "exa"
@@ -42,6 +64,11 @@ brew "diff-so-fancy"
 brew "annie"
 brew "youtube-dl"
 
+
+# brew "gmp"
+# brew "mpfr"
+# brew "libmpc"
+# brew "isl"
 # brew "rbenv"
 # brew "ruby-build"
 # brew "readline"
@@ -51,22 +78,15 @@ brew "youtube-dl"
 # brew 'awscli'
 # brew 'bash' # Latest Bash version
 # brew 'bat' # "cat" on steroids
-# brew 'coreutils' # Those that come with macOS are outdated
 # brew 'ffmpeg'
 # brew 'gh'
-# brew 'git'
-# brew 'gnupg2'
-# brew 'grep'
 # brew 'httpie'
 # brew 'hub'
 # brew 'mackup'
 brew 'mas' # Mac App Store manager
-# brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 # brew 'stripe'
 # brew 'trash' # Manage the Trash bin
-# brew 'tree' # List directories in a tree structure
 # brew 'zlib' # Needed for Memcached
-
 # Spatie Medialibrary
 # brew 'jpegoptim'
 # brew 'optipng'
