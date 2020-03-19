@@ -15,26 +15,11 @@ tap "homebrew-ffmpeg/ffmpeg"
 
 # Binaries
 brew "pkg-config" # https://github.com/driesvints/dotfiles/issues/20
-brew "brotli"
-brew "c-ares"
-brew "libidn"
-brew "libmetalink"
 brew "openssl@1.1"
-brew "libssh2"
-brew "jansson"
-brew "jemalloc"
-brew "libev"
-brew "libevent"
-brew "nghttp2"
 brew "openldap"
-brew "rtmpdump"
 brew "curl", link: false
 brew "curl-openssl", link: false
-brew "gettext"
-brew "pcre2"
 brew "git"
-brew "ncurses"
-brew "pcre"
 brew "zsh"
 brew "coreutils" # Those that come with macOS are outdated
 brew "grep"
@@ -64,11 +49,6 @@ brew "diff-so-fancy"
 brew "annie"
 brew "youtube-dl"
 
-
-# brew "gmp"
-# brew "mpfr"
-# brew "libmpc"
-# brew "isl"
 # brew "rbenv"
 # brew "ruby-build"
 # brew "readline"
