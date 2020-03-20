@@ -13,3 +13,6 @@
 [submodule "openvpn-config"]
 	path = openvpn-config
 	url = git@github.com:issenn/openvpn-config.git
+[submodule "git-config"]
+	path = git-config
+	url = git@github.com:issenn/git-config.git
