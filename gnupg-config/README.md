@@ -51,7 +51,7 @@ gpg -k
 删除公钥
 
 ```sh
-gpg --delete-key [key-id]
+gpg --delete-keys [key-id]
 ```
 
 列出私钥
@@ -73,7 +73,7 @@ gpg --delete-secret-keys [key-id]
 
 导出主公密钥
 ```sh
-gpg --armor --output public-key-gmail.txt --export MASTERKEYID
+gpg --armor --output master-public-key.txt --export MASTERKEYID
 ```
 ```sh
 # Prints the GPG key ID, in ASCII armor format
@@ -82,7 +82,7 @@ gpg --armor --export [key-id]
 
 导出主私密钥
 ```sh
-gpg --armor --output secret-key-gmail.txt --export-secret-keys MASTERKEYID
+gpg --armor --output master-secret-key.txt --export-secret-keys MASTERKEYID
 ```
 导出子私密钥
 ```sh
