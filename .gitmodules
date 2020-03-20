@@ -10,3 +10,6 @@
 [submodule "vscode-config"]
 	path = vscode-config
 	url = git@github.com:issenn/vscode-config.git
+[submodule "openvpn-config"]
+	path = openvpn-config
+	url = git@github.com:issenn/openvpn-config.git
