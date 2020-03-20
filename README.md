@@ -4,6 +4,22 @@ My dotfiles controlled by GNU stow following [this way](https://farseerfc.me/usi
 
 ## Requirements
 
+
+```sh
+brew install zsh
+```
+```sh
+sudo vim /etc/shells
+```
+Add
+```
+/usr/local/bin/bash
+/usr/local/bin/zsh
+```
+```sh
+chsh -s /usr/local/bin/zsh
+```
+
 ```sh
 brew install stow
 ```
@@ -18,6 +34,11 @@ stow stow-config
 ### .keep
 ```sh
 stow .keep
+```
+
+### git-config
+```sh
+stow git-config
 ```
 
 `# Meslo LG M DZ Regular for Powerline`
