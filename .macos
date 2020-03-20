@@ -5,6 +5,8 @@
 
 # git config --global url."git@github.com:".insteadOf "https://github.com/"
 
+sudo spctl --master-disable
+
 # Show dotfiles by default 
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
