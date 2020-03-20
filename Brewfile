@@ -14,25 +14,21 @@ tap "issenn/kong"
 tap "homebrew-ffmpeg/ffmpeg"
 
 # Binaries
-brew "pkg-config" # https://github.com/driesvints/dotfiles/issues/20
+brew "pkg-config"  # https://github.com/driesvints/dotfiles/issues/20
 brew "openssl@1.1"
 brew "openldap"
 brew "curl", link: false
 brew "curl-openssl", link: false
 brew "git"
 brew "zsh"
-brew "coreutils" # Those that come with macOS are outdated
+brew "coreutils"  # Those that come with macOS are outdated
 brew "grep"
 brew "make"
 brew "cmake"
 brew "gcc"
 brew "gawk"
 brew "gnu-sed"
-brew "tree" # List directories in a tree structure
-
-brew "neofetch"
-brew "screenfetch"
-brew "lolcat"
+brew "tree"  # List directories in a tree structure
 brew "pinentry-mac"
 # brew "gpg"
 brew "gnupg"
@@ -42,7 +38,9 @@ brew "tmux"
 brew "reattach-to-user-namespace"
 # brew "exa"
 # brew "fzf"
-
+brew "neofetch"
+brew "screenfetch"
+brew "lolcat"
 brew "timewarrior"
 brew "diff-so-fancy"
 brew "annie"
@@ -62,7 +60,7 @@ brew "youtube-dl"
 # brew 'httpie'
 # brew 'hub'
 # brew 'mackup'
-brew 'mas' # Mac App Store manager
+brew 'mas'  # Mac App Store manager
 # brew 'stripe'
 # brew 'trash' # Manage the Trash bin
 # brew 'zlib' # Needed for Memcached
@@ -92,9 +90,9 @@ cask "issenn/cask-fonts/font-meslo-nerd-font-patched"
 # Apps
 cask_args appdir: "/Applications"
 
+cask "shadowsocksx-ng-r"
 cask "iterm2"
 cask "istat-menus"
-cask "shadowsocksx-ng-r"
 cask "pritunl"
 cask "google-chrome"
 cask "visual-studio-code"
@@ -138,7 +136,7 @@ cask "youdaonote"
 # cask 'transmission'
 # cask 'transmit'
 # cask 'vagrant'
-# cask 'virtualbox' # Might need to allow access in Security settings
+# cask 'virtualbox'  # Might need to allow access in Security settings
 # cask 'virtualbox-extension-pack'
 # cask 'vlc'
 # cask 'whatsapp'
