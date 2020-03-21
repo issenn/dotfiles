@@ -114,6 +114,7 @@ cask "issenn/cask-fonts/font-meslo-nerd-font-patched"
 # Apps
 cask_args appdir: "/Applications"
 
+cask "macs-fan-control"
 cask "shadowsocksx-ng-r"
 cask "iterm2"
 cask "istat-menus"
