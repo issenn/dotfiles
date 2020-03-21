@@ -100,6 +100,14 @@ brew 'mas'  # Mac App Store manager
 # brew 'yarn'
 
 # Fonts
+# cask 'font-lato'
+# cask 'font-open-sans'
+# cask 'font-roboto'
+# cask 'font-roboto-condensed'
+# cask 'font-source-code-pro-for-powerline'
+# cask 'font-source-code-pro'
+# cask 'font-source-sans-pro'
+# cask 'font-source-serif-pro'
 
 cask "issenn/cask-fonts/font-meslo-nerd-font-patched"
 
@@ -167,16 +175,6 @@ cask "youdaonote"
 # cask 'quicklook-json'
 # cask 'quicklook-csv'
 # cask 'qlstephen'
-
-# Fonts
-# cask 'font-lato'
-# cask 'font-open-sans'
-# cask 'font-roboto'
-# cask 'font-roboto-condensed'
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-code-pro'
-# cask 'font-source-sans-pro'
-# cask 'font-source-serif-pro'
 
 # Mac App Store
 # mas "1Password", id: 443987910
