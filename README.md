@@ -21,6 +21,14 @@ chsh -s /usr/local/bin/zsh
 ```
 
 ```sh
+sudo vim /etc/paths
+```
+Add
+```
+/usr/local/sbin
+```
+
+```sh
 brew install stow
 ```
 
