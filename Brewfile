@@ -11,7 +11,10 @@ tap "issenn/core"
 tap "issenn/cask-versions"
 tap "issenn/cask-fonts"
 tap "issenn/kong"
+# tap "cjbassi/gotop"
 tap "homebrew-ffmpeg/ffmpeg"
+# tap "go-gitea/gitea"
+# tap "yudai/gotty"
 
 # Binaries
 brew "pkg-config"  # https://github.com/driesvints/dotfiles/issues/20
@@ -114,24 +117,32 @@ cask "issenn/cask-fonts/font-meslo-nerd-font-patched"
 # Apps
 cask_args appdir: "/Applications"
 
+cask "appcleaner"
 cask "macs-fan-control"
 cask "shadowsocksx-ng-r"
 cask "iterm2"
 cask "istat-menus"
-cask "pritunl"
-cask "google-chrome"
+cask "the-unarchiver"
+# cask "keka"
 cask "visual-studio-code"
 cask "sublime-text"
+cask "google-chrome"
 cask "clashx"
+cask "pritunl"
+# cask "squirrel"
 cask "typora"
 cask "alacritty"
 cask "vmware-fusion"
 cask "docker"
+cask "pycharm"
+cask "intellij-idea"
+cask "android-studio"
+cask "goland"
+# cask "webstorm"
 cask "wechat"
+# cask "wechatwork"
 cask "youdaonote"
-# cask "pycharm"
-# cask "intellij-idea"
-# cask "android-studio"
+# cask "yacreader"
 
 # cask "beyond-compare"
 # cask '1password'
@@ -160,7 +171,6 @@ cask "youdaonote"
 # cask 'tableplus'
 # cask 'telegram-desktop'
 # cask 'there'
-# cask 'the-unarchiver'
 # cask 'tor-browser'
 # cask 'transmission'
 # cask 'transmit'
