@@ -24,6 +24,7 @@ brew "curl", link: false
 brew "curl-openssl", link: false
 brew "git"
 brew "zsh"
+brew "bash"
 brew "coreutils"  # Those that come with macOS are outdated
 brew "grep"
 brew "make"
@@ -64,12 +65,6 @@ brew "rbenv-vars"
 brew "node"
 brew "node-build"
 brew "nvm"
-
-# brew "rbenv"
-# brew "ruby-build"
-# brew "readline"
-# brew "rbenv-gemset"
-# brew "rbenv-vars"
 
 # brew 'awscli'
 # brew 'bash' # Latest Bash version
@@ -129,7 +124,9 @@ cask "sublime-text"
 cask "google-chrome"
 cask "clashx"
 cask "pritunl"
-# cask "squirrel"
+cask "switchhosts"
+cask "squirrel"
+cask "kawa"
 cask "typora"
 cask "alacritty"
 cask "vmware-fusion"
