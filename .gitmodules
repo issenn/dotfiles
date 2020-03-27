@@ -22,3 +22,6 @@
 [submodule "sublime-text-3-config"]
 	path = sublime-text-3-config
 	url = git@github.com:issenn/sublime-text-3-config.git
+[submodule "rime-config"]
+	path = rime-config
+	url = git@github.com:issenn/rime-config.git
