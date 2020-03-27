@@ -7,7 +7,7 @@
 
 sudo spctl --master-disable
 
-# Show dotfiles by default 
+# Show dotfiles by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 
 defaults write com.apple.finder PathBarRootAtHome -bool true
@@ -17,6 +17,9 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
 defaults write NewWindowTargetPath -string "file:///Users/issenn/"
 
 killall Finder
+
+#  disable 'open safe files after downloading' in Safari for Mac
+defaults write com.apple.Safari AutoOpenSafeDownloads -boolean false
 
 # Initial keep file
 stow -D .keep && stow .keep
