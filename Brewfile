@@ -48,6 +48,7 @@ brew "lolcat"
 brew "timewarrior"
 brew "vim"
 brew "diff-so-fancy"
+# brew "connect"
 brew "aria2"
 brew "annie"
 brew "youtube-dl"
@@ -185,6 +186,7 @@ cask "youdaonote"
 # cask 'qlstephen'
 
 # Mac App Store
+# mas  "Xcode", id: 497799835
 # mas "1Password", id: 443987910
 # mas 'Byword', id: 420212497
 # mas 'Giphy Capture', id: 668208984

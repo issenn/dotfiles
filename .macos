@@ -1,5 +1,8 @@
 #!/usr/bin/env zsh
 
+
+# https://github.com/mathiasbynens/dotfiles/blob/master/.macos
+
 # Install Homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
@@ -20,6 +23,18 @@ killall Finder
 
 #  disable 'open safe files after downloading' in Safari for Mac
 defaults write com.apple.Safari AutoOpenSafeDownloads -boolean false
+
+
+# defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
+# # Trackpad: enable tap to click for this user and for the login screen
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true # enable "Tap To Click" feature
+# defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+# # defaults -currentHost write 'Apple Global Domain' com.apple.mouse.tapBehavior -int 1
+
+# Disable transparency in the menu bar and elsewhere on Yosemite
+defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Initial keep file
 stow -D .keep && stow .keep
