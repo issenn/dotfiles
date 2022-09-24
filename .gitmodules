@@ -25,3 +25,24 @@
 [submodule "rime-config"]
 	path = rime-config
 	url = git@github.com:issenn/rime-config.git
+[submodule "aria2-config"]
+	path = aria2-config
+	url = git@github.com:issenn/aria2-config.git
+[submodule "docker-config"]
+	path = docker-config
+	url = git@github.com:issenn/docker-config.git
+[submodule "frp-config"]
+	path = frp-config
+	url = git@github.com:issenn/frp-config.git
+[submodule ".keep"]
+	path = .keep
+	url = git@github.com:issenn/config.keep.git
+[submodule "ssh-config"]
+	path = ssh-config
+	url = git@github.com:issenn/ssh-config.git
+[submodule "homebrew-config"]
+	path = homebrew-config
+	url = git@github.com:issenn/homebrew-config.git
+[submodule "gnupg-config"]
+	path = gnupg-config
+	url = git@github.com:issenn/gnupg-config.git
