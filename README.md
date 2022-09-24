@@ -5,17 +5,24 @@ My dotfiles controlled by GNU stow following [this way](https://farseerfc.me/usi
 ## Requirements
 
 
+# check the zsh info
+```sh
+brew info zsh
+```
+# install zsh
 ```sh
 brew install zsh
 ```
+# add shell path
 ```sh
 sudo vim /etc/shells
 ```
-Add
+# add the following line into the very end of the file(/etc/shells)
 ```
 /usr/local/bin/bash
 /usr/local/bin/zsh
 ```
+# change default shell
 ```sh
 chsh -s /usr/local/bin/zsh
 ```
@@ -69,3 +76,6 @@ brew install tmux
 brew install reattach-to-user-namespace
 stow tmux-config
 ```
+<!-- 
+> 后续折腾
+> [rcm](https://github.com/thoughtbot/rcm) -->
